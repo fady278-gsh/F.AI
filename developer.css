@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.developers-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.developer-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    max-width: 300px;
+}
+
+    .developer-card img {
+        border-radius: 50%;
+        max-width: 150px;
+        margin-bottom: 20px;
+    }
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+    .contact-icons a {
+        text-decoration: none;
+        color: #333;
+        margin: 0 10px;
+        transition: color 0.3s;
+    }
+
+        .contact-icons a:hover {
+            color: #007bff;
+        }
+
+    .contact-icons svg {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #007bff;
+        padding: 5px;
+    }
